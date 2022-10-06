@@ -33,10 +33,10 @@ function MovieForm(props) {
       <input type = "text" onChange = {(event) => {setPlot(event.target.value)}}/>
       <br/>
       <label>Year: </label>
-      <input type = "number" onChange = {(event) => {setImbd(event.target.value)}}/>
+      <input type = "number" onChange = {(event) => {setYear(event.target.value)}}/>
       <br/> 
       <label>Imdb Rating: </label>
-      <input type = "number" step = "0.1" onChange = {(event) => {setYear(event.target.value)}}/>
+      <input type = "number" step = "0.1" onChange = {(event) => {setImbd(event.target.value)}}/>
       
       <p>Current Title: {title}</p>
       <p>Current Director: {director}</p>
